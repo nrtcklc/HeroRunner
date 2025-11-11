@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7432106088868600467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3200425798656936853}
+  - component: {fileID: 7798993284138142532}
+  m_Layer: 0
+  m_Name: DilDegistir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3200425798656936853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432106088868600467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2630253, y: 5.2768536, z: 11.801599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7798993284138142532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432106088868600467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51aa2c556708dd3408db6dae1d1ab9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumTextler: []
+  ceviriler:
+  - Ingilizce: STAGE 1
+    Turkce: "B\xD6L\xDCM 1"
+    Rusca: "\u042D\u0422\u0410\u041F 1"
+    Almanca: "B\xDCHNE 1 "
+    "Frans\u0131zca": "\xC9TAPE 1 "
+    Portekizce: "EST\xC1GIO 1"
+    Ispanyolca: 'NIVEL 1 '
+    Italyanca: 'FASE 1 '
+    Hintce: "\u092A\u094D\u0930\u0925\u092E \u091A\u0930\u0923 "
+    Cince: "\u9636\u6BB51 "
+    Ozbekce: BO'LIM 1
+    Japonca: "\u30B9\u30C6\u30FC\u30B81"
+  - Ingilizce: TOUCH TO MOVE
+    Turkce: "Hareket etmek i\xE7in dokun "
+    Rusca: "\u041F\u0440\u0438\u043A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F,
+      \u0447\u0442\u043E\u0431\u044B \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F "
+    Almanca: "Ber\xFChrung, um sich zu bewegen "
+    "Frans\u0131zca": 'Toucher pour bouger '
+    Portekizce: Toque para se mover
+    Ispanyolca: 'Toque para moverse '
+    Italyanca: 'Toccare per muoversi '
+    Hintce: "\u091F\u091A \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+      \u0938\u094D\u092A\u0930\u094D\u0936 \u0915\u0930\u0928\u093E "
+    Cince: "\u89E6\u6478\u79FB\u52A8 "
+    Ozbekce: ISHLATISH UCHUN BOS
+    Japonca: "\u30BF\u30C3\u30C1\u3057\u3066\u79FB\u52D5\u3057\u307E\u3059"
+  - Ingilizce: FINISH
+    Turkce: "B\u0130T\u0130\u015E"
+    Rusca: "\u0417\u0410\u041A\u041E\u041D\u0427\u0415\u041D"
+    Almanca: BEENDEN
+    "Frans\u0131zca": FINITION
+    Portekizce: TERMINAR
+    Ispanyolca: FINALIZAR
+    Italyanca: FINE
+    Hintce: "\u0916\u0924\u094D\u092E \u0915\u0930\u0928\u093E "
+    Cince: "\u7ED3\u675F"
+    Ozbekce: MARRA
+    Japonca: "\u4ED5\u4E0A\u3052\u308B"
+  - Ingilizce: INFORMATION
+    Turkce: "B\u0130LG\u0130"
+    Rusca: "\u0418\u041D\u0424\u041E\u0420\u041C\u0410\u0426\u0418\u042F"
+    Almanca: INFORMATION
+    "Frans\u0131zca": INFORMATION
+    Portekizce: "INFORMA\xC7\xC3O"
+    Ispanyolca: "INFORMACI\xD3N"
+    Italyanca: INFORMAZIONE
+    Hintce: "\u091C\u093E\u0928\u0915\u093E\u0930\u0940 "
+    Cince: "\u4FE1\u606F"
+    Ozbekce: MALUMOT
+    Japonca: "\u60C5\u5831"
+  - Ingilizce: TERM OF USE
+    Turkce: "KULLANIM KO\u015EULU"
+    Rusca: "\u0423\u0421\u041B\u041E\u0412\u0418\u0415 \u0418\u0421\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u041D\u0418\u042F"
+    Almanca: NUTZUNGSBEDINUNGEN
+    "Frans\u0131zca": CONDITIONS D'UTILISATION
+    Portekizce: Termo de uso
+    Ispanyolca: "T\xC9RMINOS DE USO"
+    Italyanca: TERMINI D'USO
+    Hintce: "\u0909\u092A\u092F\u094B\u0917 \u0915\u0940 \u0936\u094D\u0924 "
+    Cince: "\u4F7F\u7528\u671F\u9650"
+    Ozbekce: FOYDALANISH SHARTI
+    Japonca: "\u4F7F\u7528\u6761\u4EF6"
+  - Ingilizce: PRIVACY POLICY
+    Turkce: "G\u0130ZL\u0130L\u0130K POL\u0130T\u0130KASI"
+    Rusca: "\u041F\u041E\u041B.  \u041A\u041E\u041D\u0424\u0418\u0414\u0415\u041D\u0426\u0418\u0410\u041B\u042C\u041D\u041E\u0421\u0422\u0418"
+    Almanca: DATENSCHUTZRICHTLINIE
+    "Frans\u0131zca": "POLITIQUE DE CONFIDENTIALIT\xC9"
+    Portekizce: "POL\xCDTICA DE PRIVACIDADE"
+    Ispanyolca: "POL\xCDTICA DE PRIVACIDAD"
+    Italyanca: POLITICA SULLA RISERVATEZZA
+    Hintce: "\u0917\u094B\u092A\u0928\u0940\u092F\u0924\u093E \u0928\u0940\u0924\u093F "
+    Cince: "\u9690\u79C1\u653F\u7B56"
+    Ozbekce: MAXFIYLIK SIYOSATI
+    Japonca: "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+  - Ingilizce: Click this sentence for read or download Privacy Policy.
+    Turkce: "Gizlilik politikas\u0131n\u0131 okumak veya indirmek i\xE7in t\u0131klay\u0131n."
+    Rusca: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u044D\u0442\u043E
+      \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0434\u043B\u044F
+      \u043F\u0440\u043E\u0447\u0442\u0435\u043D\u0438\u044F \u0438\u043B\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438
+      \u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0438 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438. "
+    Almanca: 'Klicken Sie auf diesen Satz, um Datenschutzrichtlinien zu lesen oder
+      herunterzuladen. '
+    "Frans\u0131zca": "Cliquez sur cette phrase pour lire ou t\xE9l\xE9charger la
+      politique de confidentialit\xE9. "
+    Portekizce: "Clique nesta frase para ler ou baixar a pol\xEDtica de privacidade."
+    Ispanyolca: "Haga clic en esta oraci\xF3n para leer o descargar la Pol\xEDtica
+      de privacidad. "
+    Italyanca: 'Fai clic su questa frase per leggere o scaricare l''informativa sulla
+      privacy. '
+    Hintce: "\u0917\u094B\u092A\u0928\u0940\u092F\u0924\u093E \u0928\u0940\u0924\u093F
+      \u092A\u0922\u093C\u0928\u0947 \u092F\u093E \u0921\u093E\u0909\u0928\u0932\u094B\u0921
+      \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u0907\u0938 \u0935\u093E\u0915\u094D\u092F
+      \u092A\u0930 \u0915\u094D\u0932\u093F\u0915 \u0915\u0930\u0947\u0902\u0964 "
+    Cince: "\u5355\u51FB\u6B64\u53E5\u5B50\u4EE5\u9605\u8BFB\u6216\u4E0B\u8F7D\u9690\u79C1\u653F\u7B56\u3002 "
+    Ozbekce: "Maxf\u0131yl\u0131k s\u0131yosat\u0131n\u0131 ok\u0131mok yok\u0131
+      kabul k\u0131l\u0131sh uchun tugmaga bos\u0131ng "
+    Japonca: "\u3053\u306E\u6587\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3001\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u3092\u8AAD\u3080\u304B\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - Ingilizce: Click this sentence for read or download Term of Use.
+    Turkce: "Kullan\u0131m ko\u015Fulunu okumak veya indirmek i\xE7in t\u0131klay\u0131n."
+    Rusca: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u044D\u0442\u043E
+      \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0434\u043B\u044F
+      \u043F\u0440\u043E\u0447\u0442\u0435\u043D\u0438\u044F \u0438\u043B\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438
+      \u0442\u0435\u0440\u043C\u0438\u043D\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F. "
+    Almanca: 'Klicken Sie auf diesen Satz, um zu lesen oder herunterzuladen. '
+    "Frans\u0131zca": "Cliquez sur cette phrase pour lire ou t\xE9l\xE9charger le
+      terme d'utilisation. "
+    Portekizce: Clique nesta frase para leitura ou download termo de uso.
+    Ispanyolca: "Haga clic en esta oraci\xF3n para el t\xE9rmino de uso de lectura
+      o descarga. "
+    Italyanca: 'Fai clic su questa frase per il termine di lettura o download. '
+    Hintce: "\u0907\u0938 \u0935\u093E\u0915\u094D\u092F \u0915\u094B \u092A\u0922\u093C\u0928\u0947
+      \u092F\u093E \u0921\u093E\u0909\u0928\u0932\u094B\u0921 \u0936\u092C\u094D\u0926
+      \u0915\u0947 \u0909\u092A\u092F\u094B\u0917 \u0915\u0947 \u0932\u093F\u090F
+      \u0915\u094D\u0932\u093F\u0915 \u0915\u0930\u0947\u0902\u0964 "
+    Cince: "\u5355\u51FB\u6B64\u53E5\u5B50\u4EE5\u8BFB\u53D6\u6216\u4E0B\u8F7D\u4F7F\u7528\u671F\u9650\u3002 "
+    Ozbekce: "Foydalan\u0131sh shart\u0131n\u0131 ok\u0131mok yok\u0131 kabul k\u0131l\u0131sh
+      uchun tugmaga bos\u0131ng"
+    Japonca: "\u3053\u306E\u6587\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3001\u4F7F\u7528\u671F\u9593\u3092\u8AAD\u3080\u304B\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - Ingilizce: TOUCH TO RESTART
+    Turkce: "YEN\u0130DEN BA\u015ELAMAK \u0130\xC7\u0130N DOKUN"
+    Rusca: "\u041F\u0440\u0438\u043A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F
+      \u043A \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A\u0443"
+    Almanca: "Ber\xFChren Sie sich, um neu zu starten "
+    "Frans\u0131zca": "Toucher pour red\xE9marrer "
+    Portekizce: Toque para reiniciar
+    Ispanyolca: 'Toque para reiniciar '
+    Italyanca: 'Tocca per riavviare '
+    Hintce: "\u092A\u0941\u0928\u0930\u093E\u0930\u0902\u092D \u0915\u0930\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u0938\u094D\u092A\u0930\u094D\u0936 \u0915\u0930\u0947\u0902 "
+    Cince: "\u89E6\u6478\u91CD\u65B0\u542F\u52A8 "
+    Ozbekce: 'YANGIDAN BOSHLASH UCHUN BOS '
+    Japonca: "\u30BF\u30C3\u30C1\u3057\u3066\u518D\u8D77\u52D5\u3057\u307E\u3059"
+  - Ingilizce: SHOP
+    Turkce: "MA\u011EAZA"
+    Rusca: "\u041C\u0410\u0413\u0410\u0417\u0418\u041D"
+    Almanca: "GESCH\xC4FT"
+    "Frans\u0131zca": BOUTIQUE
+    Portekizce: COMPRAR
+    Ispanyolca: COMERCIO
+    Italyanca: NEGOZIO
+    Hintce: "\u0926\u0941\u0915\u093E\u0928 "
+    Cince: "\u5E97\u94FA"
+    Ozbekce: 'DOKON '
+    Japonca: "\u5E97"
+  - Ingilizce: EFFECTS
+    Turkce: EFEKTLER
+    Rusca: "\u0415\u0424\u0424\u0415\u041A\u0422\u042B"
+    Almanca: WIRKUNG
+    "Frans\u0131zca": EFFETS
+    Portekizce: Efeitos
+    Ispanyolca: Efectos
+    Italyanca: Effetti
+    Hintce: "\u092A\u094D\u0930\u092D\u093E\u0935 "
+    Cince: "\u6548\u679C"
+    Ozbekce: 'TASIRLI '
+    Japonca: "\u52B9\u679C"
+  - Ingilizce: LANGUAGE
+    Turkce: "D\u0130L"
+    Rusca: "\u042F\u0417\u042B\u041A"
+    Almanca: SPRACHE
+    "Frans\u0131zca": LANGUE
+    Portekizce: LINGUAGEM
+    Ispanyolca: IDIOMA
+    Italyanca: LINGUA
+    Hintce: "\u092D\u093E\u0937\u093E "
+    Cince: "\u8BED\u8A00"
+    Ozbekce: 'TIL '
+    Japonca: "\u8A00\u8A9E"
+  - Ingilizce: NEXT STAGE
+    Turkce: "SONRAK\u0130 B\xD6L\xDCM"
+    Rusca: "\u0421\u041B\u0415\u0414\u0423\u042E\u0429\u0418\u0419 \u042D\u0422\u0410\u041F"
+    Almanca: "N\xC4CHSTE STUFE"
+    "Frans\u0131zca": "\xC9TAPE SUIVANTE"
+    Portekizce: "PR\xD3XIMO EST\xC1GIO"
+    Ispanyolca: SIGUIENTE ETAPA
+    Italyanca: PROSSIMA FASE
+    Hintce: "\u0905\u0917\u0932\u093E \u092A\u0921\u093C\u093E\u0935 "
+    Cince: "\u4E0B\u4E2A\u9636\u6BB5"
+    Ozbekce: NAVBATDAGI BO'LIM
+    Japonca: "\u6B21\u306E\u30B9\u30C6\u30FC\u30B8"
+  - Ingilizce: '           CLAIM X2'
+    Turkce: '            2''YE KATLA'
+    Rusca: "           \u041F\u0440\u0435\u0442\u0435\u043D\u0437\u0438\u044F x2"
+    Almanca: '           Anspruch x2'
+    "Frans\u0131zca": "           R\xE9clamer x2"
+    Portekizce: "           Reivindica\xE7\xE3o x2"
+    Ispanyolca: "           Reclamaci\xF3n x2"
+    Italyanca: '           Reclamo x2'
+    Hintce: "           X2 \u0915\u093E \u0926\u093E\u0935\u093E \u0915\u0930\u0947\u0902"
+    Cince: "           \u8981\u6C42x2"
+    Ozbekce: '           KOPAYTIR X2'
+    Japonca: "           \u30AF\u30EC\u30FC\u30E0X2"
+  - Ingilizce: CONTACT ME
+    Turkce: "BANA ULA\u015E"
+    Rusca: "\u0421\u0412\u042F\u0416\u0418\u0422\u0415\u0421\u042C \u0421\u041E \u041C\u041D\u041E\u0419"
+    Almanca: KONTAKTIERE MICH
+    "Frans\u0131zca": CONTACTEZ MOI
+    Portekizce: CONTATE-ME
+    Ispanyolca: "CONT\xC1CTAME"
+    Italyanca: CONTATTAMI
+    Hintce: "\u092E\u0941\u091D\u0938\u0947 \u0938\u0902\u092A\u0930\u094D\u0915
+      \u0915\u0930\u0947\u0902"
+    Cince: "\u8054\u7EDC\u6211"
+    Ozbekce: MEN BILAN BOGLANING
+    Japonca: "\u79C1\u306B\u9023\u7D61\u3057\u3066"
+  - Ingilizce: STAGE COMPLETED
+    Turkce: "B\xD6L\xDCM TAMAMLANDI"
+    Rusca: "\u042D\u0422\u0410\u041F \u0417\u0410\u0412\u0415\u0420\u0428\u0415\u041D"
+    Almanca: "B\xFChne abgeschlossen"
+    "Frans\u0131zca": "\xC9tape termin\xE9e"
+    Portekizce: "Est\xE1gio conclu\xEDdo"
+    Ispanyolca: Etapa completada
+    Italyanca: Stage completato
+    Hintce: "\u092E\u0902\u091A \u092A\u0942\u0930\u093E \u0939\u0941\u0906"
+    Cince: "\u821E\u53F0\u5B8C\u6210"
+    Ozbekce: BO'LIM TUGADI
+    Japonca: "\u30B9\u30C6\u30FC\u30B8\u304C\u5B8C\u4E86\u3057\u307E\u3057\u305F"
+  - Ingilizce: TOUCH TO CONTINUE
+    Turkce: "DEVAM ETMEK \u0130\xC7\u0130N DOKUN"
+    Rusca: "\u041F\u0440\u0438\u043A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F,
+      \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+    Almanca: "Ber\xFChren Sie sich, um fortzufahren"
+    "Frans\u0131zca": Toucher pour continuer
+    Portekizce: Toque para continuar
+    Ispanyolca: Toque para continuar
+    Italyanca: Tocca per continuare
+    Hintce: "\u091C\u093E\u0930\u0940 \u0930\u0916\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+      \u0938\u094D\u092A\u0930\u094D\u0936 \u0915\u0930\u0947\u0902"
+    Cince: "\u89E6\u6478\u7EE7\u7EED"
+    Ozbekce: Davom etish uchun bosing
+    Japonca: "\u30BF\u30C3\u30C1\u3057\u3066\u7D9A\u884C\u3057\u307E\u3059"
+  - Ingilizce: X2 SLOWER
+    Turkce: X2 YAVAS
+    Rusca: "X2 \u041C\u0435\u0434\u043B\u0435\u043D\u043D\u0435\u0435"
+    Almanca: X2 Langsamer
+    "Frans\u0131zca": X2 plus lent
+    Portekizce: X2 mais lento
+    Ispanyolca: "X2 m\xE1s lento"
+    Italyanca: "X2 pi\xF9 lento"
+    Hintce: "2X \u0927\u0940\u092E\u093E"
+    Cince: "\u6162 2 \u500D"
+    Ozbekce: X2 Sekinroq
+    Japonca: "x2\u9045\u3044"
+  - Ingilizce: There is not enough coin.
+    Turkce: Yeterli para yok.
+    Rusca: "\u041D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0434\u0435\u043D\u0435\u0433."
+    Almanca: Es gibt nicht genug Geld.
+    "Frans\u0131zca": Il n'y a pas assez d'argent.
+    Portekizce: "N\xE3o h\xE1 dinheiro suficiente."
+    Ispanyolca: No hay suficiente dinero.
+    Italyanca: Non ci sono abbastanza soldi.
+    Hintce: "\u092A\u0930\u094D\u092F\u093E\u092A\u094D\u0924 \u092A\u0948\u0938\u093E
+      \u0928\u0939\u0940\u0902 \u0939\u0948\u0964"
+    Cince: "\u6CA1\u6709\u8DB3\u591F\u7684\u94B1\u3002"
+    Ozbekce: Pul etarli emas.
+    Japonca: "\u5341\u5206\u306A\u304A\u91D1\u304C\u3042\u308A\u307E\u305B\u3093\u3002"
+  cevirilecekDil: 
